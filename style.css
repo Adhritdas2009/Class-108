@@ -1,0 +1,21 @@
+#header{
+    color: seagreen;
+    background-color: cyan;
+    width : 100%;
+    position : absolute;
+    top:0;
+}
+
+#startbtn{
+    margin-top: 150px;
+}
+
+#footer{
+    color : seagreen;
+    background-color: cyan;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px black ;
+}
+

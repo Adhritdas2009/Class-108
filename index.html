@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Sound Controlled Aliens</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+    </head>
+    <body class="bg-success">
+        
+        <center>
+        <div id="header">
+        <h1 id="titl">Sound Controlled Aliens</h1>
+        <br>
+        <label>Play different sound like clap, bell, mouse click to make the aliens dance.</label>
+    </div>
+    <div class="container">
+    <div>
+        <button class="btn btn-warning" id="startbtn" onclick="start()">Start</button>
+        <br><br>
+        <h4>I can hear- <span id="soundname"></span></h4>
+        <br>
+        <h4>Accuracy- <span id="accu"></span></h4>
+    </div>
+    <br>
+    <div id="aliensdiv">
+    <img src="aliens-01.png" id="alien1" width="200" height="200">
+ 
+    <img src="aliens-02.png" id="alien2" width="200" height="200">
+
+    <img src="aliens-03.png" id="alien3" width="200" height="200">
+
+    <img src="aliens-04.png" id="alien4" width="200" height="200">
+</div>
+</div>
+    <div id="footer">
+        <h3>Developed by - Adhrit Das, 2022
+        </h3>
+    </div>
+<script src="main.js"></script>
+</center>
+
+    </body>
+</html>
